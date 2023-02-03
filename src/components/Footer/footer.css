@@ -1,0 +1,145 @@
+.social-media {
+  display: inline-flex;
+  /* position: absolute; */
+  /* width: 98%; */
+  padding: 5px 10px 1px 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #327640;
+  position: relative;
+  z-index: 200;
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.social-media a {
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media_1 {
+  margin-top: 30px;
+}
+
+.social-media_1 a {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.social-media_1 a img {
+  width: 14px;
+}
+
+.social-media a:hover {
+  filter: saturate(90) hue-rotate(46deg) brightness(3.8) sepia(80%);
+}
+
+.social-media-2 {
+  display: inline-flex;
+  /* position: absolute; */
+  width: 98%;
+  text-align: center;
+  justify-content: center;
+  color: #327640;
+  background-color: #307438;
+}
+
+.type2 {
+  border-radius: 20px;
+  padding: 3px 25px !important;
+  background-color: #308139;
+}
+
+
+.footer-text {
+  font-weight: 400;
+  /* width: 98%; */
+  font-family: 'UbuntuTitling';
+  text-align: center;
+  font-size: 12px;
+  bottom: -300px;
+  /* margin: auto;
+  transform: translate(-50%, -50%); */
+}
+
+.footer-text-2 {
+  font-family: 'UbuntuTitling';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  margin-top: 10px;
+  color: #FFFFFF;
+
+}
+
+/* fix */
+
+.footer {
+  position: relative;
+  background-image: url('../../assets/footer_img.png');
+  border-radius: 16px;
+  padding-top: 600px;
+  padding-bottom: 50px;
+  background-size: cover;
+  z-index: 109;
+  /* margin-bottom: 50px; */
+}
+
+.footer_2 {
+  padding-top: 161px;
+}
+
+.leaf21 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 50%;
+  z-index: 102;
+}
+
+@media (max-width: 924px) {
+  .main-panel {
+    margin-top: 50px;
+  }
+
+  .footer {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 771px) {
+  .main-panel {
+    margin-top: 50px;
+  }
+
+
+  .footer {
+    padding-top: 40%;
+    background-position: 100%;
+    background-size: 200% 100%;
+  }
+}
+
+@media (max-width: 771px) {
+  .footer-text {
+    font-size: 8px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .leaf21 {
+    position: absolute;
+    content: url('../../assets/backgrounds/leaves23.png');
+    bottom: 0px;
+    left: 50%;
+    width: 50%;
+    z-index: -1;
+  }
+}

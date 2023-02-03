@@ -1,0 +1,241 @@
+.sample_container {
+    max-width: 1100px;
+}
+
+.sample_title {
+    margin: 10px;
+    border: 1px solid #0A7B3D;
+    border-radius: 10px;
+    padding: 17px;
+    min-width: 200px;
+    font-family: 'Chaloops';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    width: 25%;
+    margin: auto;
+    color: #0A7B3D;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.leaf7_2 {
+    display: none;
+}
+/* .ni-prop-wraper div:nth-child(2) { */
+
+.sample_content {
+    font-family: 'Ubuntu Titling';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    width: 80%;
+    /* max-width: 400px; */
+
+    margin: auto;
+    margin-bottom: 50px;
+    /* or 140% */
+
+    text-align: center;
+    border-radius: 10px;
+
+    color: #0A7B3D;
+}
+
+.learn-more-first {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.learn-more-first button {
+    /* margin-top: 40px; */
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;
+    height: auto;
+    background: #B4DC82;
+    border: none;
+    box-shadow: 0px 6px 4px 0px #b4dc82;
+    border-radius: 6px;
+
+    background: #B4DC82;
+    box-shadow: 0px 0px 24px #B4DC82;
+    border-radius: 7px;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 9px;
+    width: 220px;
+}
+
+.nft_sample {
+    position: relative;
+    background-color: #FCEDCA;
+    border-radius: 25px;
+    z-index: 104;
+}
+
+/* .blur img,
+.blur .embed {
+    filter: blur(3px);
+} */
+
+.blur-6 {
+    border: 0.5px solid #0A7B3D;
+    filter: blur(6px);
+}
+
+.blur-4 {
+    border: 0.5px solid #0A7B3D;
+    filter: blur(4px);
+}
+
+.embed {
+    backdrop-filter: blur(4px);
+}
+
+.sample_list {
+    position: relative;
+    border-radius: 14px;
+    margin: 20px;
+    min-width: 189px;
+}
+
+.sample_list img {
+    border: 1px solid #0A7B3D;
+    border-radius: 14px;
+    width: 100%;
+    height: 302px;
+}
+
+.sample_list .embed {
+    border: 1px solid #0A7B3D;
+    color: #0A7B3D;
+    border-radius: 9px;
+    position: absolute;
+    padding: 8px 10px;
+    top: 65%;
+    text-align: center;
+    /* left:15%; */
+    /* width: 100%; */
+    width: 93%;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sample_cost {
+    width: 50%;
+    margin: auto;
+    color: #0A7B3D;
+    padding: 8px 20px;
+    margin-top: 30px;
+    background: rgba(62, 137, 77, 0.13);
+    box-shadow: 0px 5px 15px rgba(237, 226, 200, 0.42);
+    border-radius: 15px;
+    min-width: 220px;
+}
+
+@media screen and (max-width: 960px) {
+    .sample_list .embed {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sample_list .embed {
+        width: 80%;
+    }
+
+    .leaf7_2 {
+        display: block;
+        position: absolute;
+        width: 70%;
+
+        top: -90px;
+        z-index: 116;
+        left: -4%;
+        transform: rotate(-15deg);
+    }
+}
+
+@media screen and (max-width:359px) {
+    .sample_list .embed {
+        top: 54%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .sample_list img {
+        height: auto;
+    }
+    .sample_title {
+        margin: 10px;
+        border: 1px solid #0A7B3D;
+        border-radius: 10px;
+        padding: 6px;
+        min-width: 169px;
+        font-family: 'Chaloops';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        /* line-height: 20px; */
+        width: 25%;
+        margin: auto;
+        color: #0A7B3D;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sample_row div:nth-child(2) img {
+        content: url('../../assets/samples/clear-phino.png');
+    }
+
+    .sample_content {
+        font-size: 10px;
+    }
+
+    .sample_list {
+        width: 189px !important;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .sample_list .embed {
+        width: 90%;
+        top: 56%;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .sample_cost {
+        width: 80%;
+        margin: auto;
+        color: #0A7B3D;
+        padding: 10px 20px;
+        margin-top: 30px;
+        background: rgba(62, 137, 77, 0.13);
+        box-shadow: 0px 5px 15px rgba(237, 226, 200, 0.42);
+        border-radius: 8px;
+        min-width: 136px;
+        font-size: 12px;
+    }
+
+    .learn-more-first button {
+        margin-top: 0px;
+        width: 187px;
+    }
+}

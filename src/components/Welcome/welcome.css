@@ -1,0 +1,141 @@
+.welcome_part {
+    position: relative;
+    z-index: 199;
+    padding-top: 17%;
+}
+
+.welcome_string {
+    font-family: 'Chaloops';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 23px #969696;
+}
+
+.gradient_effect {
+    position: absolute;
+    z-index: 12;
+    top: 200%;
+    /* display: none; */
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+    background: linear-gradient(0deg, #0A7B3D 6.86%, rgba(62, 137, 77, 0) 96.17%);
+}
+
+.subscribe_container {
+    /* width: 25%; */
+    width: 532.55px;
+    height: 58.55px;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(7.5px);
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px;
+    font-family: UbuntuTitling !important;
+    font-size: 15px;
+}
+
+.subscribe_container input {
+    background: transparent;
+    color: white;
+    border: none;
+    margin: 7px;
+    width: 60%;
+    font-size: 14px;
+}
+
+.subscribe_container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.subscribe_btn {
+    width: 160px;
+    height: 41.25px;
+    font-size: 15px;
+    background: #B4DC83;
+    box-shadow: 0px 0px 24px #B4DC83;
+    border-radius: 15px;
+    border: none;
+    margin: 3px;
+    color: white;
+    position: relative;
+    z-index: 101;
+    font-family: 'Chaloops';
+}
+
+.subscribe_btn:hover {
+    background-color: #94bC62;
+}
+
+.subscribe_btn:active {
+    background-color: #94bC62;
+    box-shadow: 0px 0 12px 6px #c6cbc0;
+    ;
+}
+
+.subscribe_container input:active,
+.subscribe_container input:focus {
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .gradient_effect {
+        top: 10%;
+    }
+}
+@media screen and (max-width: 960px) {
+    .welcome_string {
+        font-size: 2.4em;
+    }
+
+    .subscribe_container {
+        width: 60%;
+        border-radius: 30px;
+    }
+
+    .subscribe_btn {
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .welcome_part {
+        padding-top: 25%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .welcome_string {
+        font-size: 1.4em;
+    }
+
+    .subscribe_container {
+        border-radius: 30px;
+        width: 277px;
+        height: 28px;
+        margin-top: 10px;
+    }
+
+    .subscribe_btn {
+        border-radius: 15px;
+        width: 85px;
+        height: 16px;
+        margin: 2px;
+        font-size: 9px;
+    }
+
+    .subscribe_container input {
+        height: 16px;
+        font-size: 9px;
+    }
+}

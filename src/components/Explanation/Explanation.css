@@ -1,0 +1,149 @@
+.explanation {
+    /* background-image: url('../../assets/exp_add.png'); */
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-top: 50px;
+    background-color: #FCEDCA;
+    padding-bottom: 50px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 100;
+}
+
+.mt-30 {
+    margin-top: 70px !important;
+}
+
+.leaf-container {
+    position: relative;
+}
+
+.leaf-container img {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    width: 35px;
+    z-index: 200;
+}
+
+.explanation * {
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.exp-header {
+    border: 1px solid #0A7B3D;
+    padding: 10px 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0A7B3D;
+    box-shadow: 0px 6px 11px 3px #f6e2b4;
+    border-radius: 16px;
+}
+
+/* .giraffe {
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+    width: 100%;
+    z-index: 80;
+} */
+
+
+
+.exp-desc {
+    color: #0A7B3D;
+    width: 57%;
+    padding: 37px;
+    font-size: 15px;
+    /* font-size: 1.5rem; */
+    font-family: 'Ubuntu Titling';
+    font-style: normal;
+    border-radius: 16px;
+    padding: 30px 50px;
+    margin: 2px auto;
+}
+
+.exp-desc:hover {
+    background-color: #0A7B3D1A;
+}
+
+
+.learn-more button {
+    margin-top: 40px;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    height: 45px;
+    background: #B4DC82;
+    border: none;
+    box-shadow: 0px 6px 4px 0px #b4dc82;
+    /* border-radius: 16px; */
+    padding: 9px;
+    border-radius: 7px;
+    background: #B4DC82;
+    box-shadow: 0px 0px 24px #B4DC82;
+}
+
+.for-back {
+    background-color: #FCEDCA;
+    border-radius: 18px;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* .giraffe {
+        top: -215px;
+    } */
+    .explanation {
+        /* background-image: url('../../assets/exp_add_mobile.png'); */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 40px;
+        padding-bottom: 39px;
+    }
+
+    .exp-header {
+        font-size: 1rem;
+        width: 60%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .exp-desc,
+    .exp-crazy {
+        font-size: 0.9rem;
+        width: 88%;
+        margin: auto;
+        padding: 20px 9% !important;
+    }
+
+    .learn-more {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exp-desc {
+        padding: 10px;
+        font-size: 10px !important;
+        font-style: bold;
+    }
+
+    .learn-more button {
+        width: 187px;
+        background: #B4DC82;
+        box-shadow: 0px 0px 24px #B4DC82;
+        border-radius: 7px;
+        font-size: 13px;
+        padding: 9px;
+    }
+
+    .for-back {
+        margin: 0 auto;
+    }
+}

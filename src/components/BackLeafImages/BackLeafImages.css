@@ -1,0 +1,167 @@
+.leaves_overlay img {
+    position: absolute;
+}
+
+.leaf1 {
+    left: 0%;
+    top: 0%;
+    width: 51%;
+}
+
+.leaf2 {
+    right: 0%;
+    top: -9%;
+    width: 45%;
+}
+
+.leaf3 {
+    left: 0;
+    top: 42%;
+    width: 32%;
+    z-index: 101;
+}
+
+.leaf4 {
+    right: 0%;
+    top: 44%;
+    width: 31%;
+    z-index: 101;
+    /* height: 80%; */
+}
+
+.leaf5 {
+    left: 0%;
+    top: 127%;
+    width: 30%;
+    height: 65%;
+    display: block;
+    z-index: 101;
+}
+
+.leaf6 {
+    right: 0%;
+    top: 60%;
+    width: 50%;
+    display: block;
+    z-index: 101;
+}
+
+
+.leaf18 {
+    position: absolute;
+    left: 0;
+    top: -550px;
+    width: 50%;
+    z-index: 103;
+}
+
+.leaf22 {
+    position: absolute;
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .leaf18 {
+        top: -500px;
+    }
+
+    .leaf6 {
+        right: 0%;
+        top: 70%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .leaf18 {
+        top: -360px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .leaf1 {
+        left: 0%;
+        top: 0%;
+        width: 40%;
+        z-index: 1;
+    }
+
+    .leaf2 {
+        right: 0%;
+        top: 0%;
+        width: 60%;
+        height: 180px;
+        z-index: 0;
+    }
+
+    .leaf3 {
+        top: 20%;
+        width: 40%;
+    }
+
+    .leaf4 {
+        right: 0%;
+        top: 22%;
+        width: 40%;
+        z-index: 100;
+    }
+
+    .leaf5 {
+        left: 0%;
+        top: 120%;
+        width: 25%;
+        display: none;
+    }
+
+    .leaf6 {
+        /* right: 0%;
+        top: 90%;
+        width: 25%; */
+        width: 50%;
+        top: 70%;
+        content: url('../../assets/backgrounds/leaves10.png');
+    }
+
+    .leaf9 {
+        left: 0%;
+        width: 50%;
+    }
+
+    .leaf10 {
+        right: 0%;
+        width: 35%;
+    }
+
+    .leaf18 {
+        /* transform: rotate(-20deg); */
+        top: -50px;
+        left: -40px !important;
+        width: 60%;
+        z-index: 1;
+        content: url('../../assets/backgrounds/leaves14.png');
+    }
+
+    .leaf22 {
+        display: block;
+        top: -250px;
+        right: -40px !important;
+        width: 50%;
+        z-index: 106;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .leaf6 {
+        top: 60%;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .leaf18 {
+        left: 0%;
+        /* top: -13.5%; */
+        width: 65%;
+    }
+
+}

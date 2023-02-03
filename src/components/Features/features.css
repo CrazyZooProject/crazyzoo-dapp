@@ -1,0 +1,72 @@
+.batchlist {
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 208px;
+
+    background: rgba(62, 137, 77, 0.02);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+}
+
+.batchlist img {
+    margin-top: 20px;
+    width: 114px;
+    height: 114px;
+}
+
+.batchlist p {
+    margin: 10px;
+    /* border: 1px solid white; */
+    border: 0.5px solid silver;
+    text-shadow: 0px 4px 23px #969696;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.batchlist p:hover {
+    background-color: #eee;
+    color: #70AF68;
+    cursor: pointer;
+}
+
+.batch_row {
+    margin: auto;
+    margin-top: 30%;
+    margin-bottom: 110px;
+    
+    position: relative;
+    z-index: 102;
+    max-width: 960px !important;
+}
+
+@media screen and (max-width: 524px) {
+
+    .batchlist {
+        width: 107px;
+    }
+
+    .batchlist img {
+        margin-top: 20px;
+        width: 55px;
+        height: 55px;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+
+    .batchlist p {
+        font-size: 9px;
+        margin: 1px;
+        border-radius: 5px;
+        padding: 1px;
+    }
+
+    .batch_row {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+}

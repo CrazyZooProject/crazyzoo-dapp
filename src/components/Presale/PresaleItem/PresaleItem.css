@@ -1,0 +1,108 @@
+.ps-component {
+    margin-top: 50px;
+    position: relative;
+}
+
+.ps-component * {
+    color: white;
+    z-index: 100;
+}
+
+.ps-token {
+    min-width: 260px;
+}
+
+.ps-wraper {
+    border-radius: 15px;
+    padding: 34px 0;
+    position: relative;
+    z-index: 101;
+}
+
+.ps-wraper:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ps-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.ps-title {
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: left;
+}
+
+.ps-description {
+    font-size: 15px;
+    font-family: 'Ubuntu Titling';
+    font-style: normal;
+    text-align: left;
+    margin-top: 34px;
+}
+
+.unit {
+    padding-left: 20px;
+}
+
+.ps-token {
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .ps-token {
+        background: #B4DC82;
+        box-shadow: 0px 0px 24px #B4DC82;
+        border-radius: 7px;
+        font-size: 1.5rem;
+
+    }
+
+    .ps-wraper {
+        margin: 4%;
+        padding: 3%;
+    }
+
+    .ps-token img {
+        width: 30px;
+    }
+
+    .unit {
+        padding-left: 5px;
+    }
+
+    .ps-description,
+    .ps-title {
+        text-align: center;
+    }
+
+    .ps-price {
+        margin-top: 10px;
+        margin-bottom: 20px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ps-token {
+        /* width: 187px; */
+        height: 39px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 5px 10px;
+    }
+    .ps-title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .ps-description {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}

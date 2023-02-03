@@ -1,0 +1,56 @@
+.pool_container {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 17px !important;
+    color: white;
+}
+
+.pool_name {
+    width: 100%;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 11px;
+}
+
+.pool_group {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.pool_group div {
+    padding: 11px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pool_group div:hover {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 12px;
+}
+
+.pool_container button {
+    width: 100%;
+    background: #B4DC82;
+    box-shadow: 0px 0px 24px #B4DC82;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+.pool_container button:hover {
+    background: #b3e774;
+    box-shadow: -4px 4px 19px #add67c;
+}

@@ -1,0 +1,127 @@
+.ni-component {
+    position: relative;
+}
+
+.ni-component * {
+    color: white;
+}
+
+.ni-item {
+    padding: 70px 60px;
+    position: relative;
+    z-index: 105;
+}
+
+.ni-item:hover {
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ni-title {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 11px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 30px;
+}
+
+.ni-mobile-name {
+    display: none;
+}
+
+.nft-avatar {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    /* margin: auto; */
+}
+
+.nft-avatar img{ 
+    width: 89%;
+}
+
+.ni-whole-prop-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+/* .ni-prop-wraper div {
+    margin: 10px 0;
+    font-size: 0.9em;
+} */
+
+.ni-prop-wraper div:nth-child(2) {
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+    .nft-avatar{
+            height: 230px;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .nbsp {
+        height: 0;
+    }
+    .ni-component{
+        margin:10px;
+    }
+    .ni-item {
+        padding: 27px 10px;
+    }
+    .ni-mobile-name {
+        display: block;
+    }
+    .ni-title {
+        font-size: 0.9rem;
+    }
+
+    .ni-whole-prop-wraper:nth-child(2) .ni-prop-wraper:nth-child(1) .ni-title{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .ni-prop-wraper div:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .ni-cost {
+        margin: 10px 0 !important;
+    }
+
+    .ni-period {
+        margin: 10px 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ni-title {
+        font-size: 10px;
+        padding: 6px;
+        margin: 3px 0;
+    }
+
+    .nft-avatar img{
+        margin-top: 20px;
+        width: 140px;
+    }
+
+    .nft-avatar {
+        padding: 0;
+    }
+
+    .ni-prop-wraper div:nth-child(2) {
+        font-size: 10px;
+        margin: 5px 0;
+    }
+
+    .ni-prop-text {
+        margin: 15px 0 !important;
+    }
+}
